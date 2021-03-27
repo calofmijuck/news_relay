@@ -11,4 +11,6 @@ RUN chmod 0744 /news_relay/crontab && cp /news_relay/crontab /etc/cron.d/cron
 
 RUN crontab /etc/cron.d/cron
 
+RUN apt install vim -y
+
 ENTRYPOINT [ "cron", "-f"]
