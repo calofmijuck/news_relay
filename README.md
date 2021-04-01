@@ -23,3 +23,10 @@
 ## Without Docker
 
 - `python3 execute.py` 를 실행하면 됩니다.
+
+## TODO
+
+### 세팅 방법 더욱 간편화 하기
+
+- 군인 정보를 입력하고 Docker 를 빌드하는 것은 불편하다.
+  - Environment variable 로 넣어서 `docker run` 해버리면 되지 않을까?
